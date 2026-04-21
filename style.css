@@ -108,3 +108,7 @@ body {
     transform: scale(1.03);
     border-color: #ffd95e;
 }
+
+.hero {
+    margin-top: 40px;
+}
