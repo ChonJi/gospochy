@@ -87,25 +87,24 @@ body {
 }
 
 .top-grid {
-    width: 100%;
+    width: 50%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    padding: 20px;
-    background: #0a0a0a;
+    grid-template-columns: repeat(1fr, 1fr);
+    gap: 1px;
+    padding: 120px;
 }
 
 .top-grid img {
-    width: 100%;
-    height: 120px;
+    width: 20%;
+    height: 80%;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 2px;
     border: 2px solid #f2c94c;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .top-grid img:hover {
-    transform: scale(1.03);
+    transform: scale(1.80);
     border-color: #ffd95e;
 }
 
